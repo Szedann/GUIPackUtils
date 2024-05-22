@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.szedann.guipackutils.mixin",
+  "refmap": "${mod_id}.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinColors",
+    "MixinReloadResourcePacks"
+  ],
+  "client": [
+    "MixinAbstractContainerScreen"
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+
